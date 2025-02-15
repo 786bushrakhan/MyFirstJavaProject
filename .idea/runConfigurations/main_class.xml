@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="main class" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="PerimeterOfRhombus" />
+    <module name="MyFirstJavaProject" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
