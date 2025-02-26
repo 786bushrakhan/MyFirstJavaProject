@@ -15,6 +15,8 @@ public class MyLinkedListRunner {
         obj.traverse(head);
         System.out.println(obj.length(head));
         head = obj.insertAtEnd(head, 15);
+        head = obj.insertAtEnd(head, 17);
+        head = obj.insertAtEnd(head, 27);
         obj.traverse(head);
         System.out.println(obj.length(head));
         obj.deleteLastNode(null);

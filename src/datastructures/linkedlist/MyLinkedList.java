@@ -2,6 +2,9 @@ package datastructures.linkedlist;
 
 public class MyLinkedList {
     public void traverse(Node head) {
+        if (head == null){
+            System.out.println("Head is Empty or null");
+        }
         Node current = head;
         while (null != current) {
             System.out.println(current.data);
@@ -47,14 +50,13 @@ public class MyLinkedList {
             return null;
         }
         if (head.next == null){
-            head = null;
             return null;
         }
-        Node secondLastNode = head;
-        while (secondLastNode.next.next != null){
-            secondLastNode = secondLastNode.next;
+        Node current = head;
+        while (current.next.next != null){
+            current = current.next;
         }
-        secondLastNode.next = null;
+        current.next = null;
         return head;
     }
 

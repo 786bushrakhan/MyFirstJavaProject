@@ -1,3 +1,5 @@
+import w3schools.oops.StaticVsPublicMethod;
+
 public class AreaOfCircle {
     public static void main(String[] args) {
        int radius = 3;
@@ -5,5 +7,10 @@ public class AreaOfCircle {
        double area = pi * radius * radius;
         System.out.println("Area of Circle with radius " +radius+ " is " +area);
 
+        /*StaticVsPublicMethod obj = new StaticVsPublicMethod();
+        obj.myPublicMethod();
+        StaticVsPublicMethod.myStaticMethod();*/
+
     }
 }
+
