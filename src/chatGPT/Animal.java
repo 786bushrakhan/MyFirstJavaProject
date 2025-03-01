@@ -1,4 +1,4 @@
-package chatGPT.inheritanceExample;
+package chatGPT;
 
 public class Animal {
     void sound(){

@@ -1,4 +1,4 @@
-package chatGPT.inheritanceExample;
+package chatGPT;
 
 public class InheritanceExample {
     public static void main (String [] args){

@@ -3,7 +3,7 @@ public class InsertAndPrintArray {
         int [] a = new int[10];
         for(int i = 0; i < a.length; i++){
             a[i] = i + 10;
-            //System.out.println(a[i]);
+            System.out.println(a[i]);
         }
 
         for(int i =0; i < a.length; i++){

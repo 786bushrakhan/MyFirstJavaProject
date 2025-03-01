@@ -1,4 +1,4 @@
-package chatGPT.inheritanceExample;
+package chatGPT;
 
 public class Mammal extends Animal{
     void walk(){
