@@ -1,13 +1,14 @@
 public class MinElement {
-    public static void main(String [] args){
-        int[] arr = {12, 11, 9, 7, 10};
-        int minimum = arr[0];
+    public static void main(String[] args) {
+        int[] ages = {46, 37, 68, 99, 42};
+        int minimum = ages[0];
 
-        for (int i = 1; i < 5; i++){
-            if (minimum > arr[i]){
-                minimum = arr[i];
+        for (int i = 1; i < ages.length; i++) {
+            if (ages[i] > minimum) {
+                minimum = ages[i];
             }
         }
         System.out.println(minimum);
     }
 }
+
